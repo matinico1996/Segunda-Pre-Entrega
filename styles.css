@@ -72,18 +72,3 @@ footer
 }
 
 
-main .card1
-{
-    width: 300px;  
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    transition: box-shadow 0.3s ease-in-out;
-    border-radius: 3px;
-}
-
-main > .card1:hover
-{
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
