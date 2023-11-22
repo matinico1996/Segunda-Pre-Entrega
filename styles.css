@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+header
+{
+    background-color: #7052ff;
+
+}
+
+header > nav
+{
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+header nav a 
+{
+    color: #fef6cd;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: x-large;
+    
+}
+
+header > nav > a:hover
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
