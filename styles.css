@@ -37,3 +37,28 @@ header > nav > a:hover
     font-weight: bold;
     text-decoration: underline;
 }
+
+
+main
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+mian > .card
+{
+    width: 300px;  
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+main > .card > img
+{
+  width: 100%;
+  height: fit-content;
+}
