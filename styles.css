@@ -22,7 +22,7 @@ header > nav
 
 }
 
-header nav a 
+header > nav > a 
 {
     color: #fef6cd;
     text-decoration: none;
